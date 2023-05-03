@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mainContainer {
+  width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.headerMain {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+.mainImg {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+
+.headerTitleBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  align-items: center;
+}
+
+.searchInput {
+  height: 30px;
+  padding: 5px;
+  border-radius: 10px;
+  width: 100%;
+
+  border: 3px solid rgb(5, 5, 5);
+}
+
+a {
+  text-decoration: none;
+}
+.card {
+  padding: 10px 40px;
+  background-color: rgb(228, 201, 252);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 380px;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cardSubBox {
+  display: flex;
+  gap: 20px;
+}
+
+.cardTitle {
+  color: black;
+}
+
+.cardPara {
+  color: rgb(70, 34, 102);
+}
